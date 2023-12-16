@@ -21,10 +21,10 @@ This project is a collaborative effort where I was responsible for all the softw
 - Employed for storing and managing data related to user accounts, water consumption, sensor values and system alerts.
 
 **Main NodeMCU**
-- Used to simulate water consumption via a potentiometer, enabling users to adjust analog values reflected within the application.
+- Implemented for simulating the alert system and irregularities using LED sensors. These sensors fetched data from the database to determine when to activate or deactivate alerts.
 
 **Water Consumption NodeMCU**
-- Implemented for simulating the alert system and irregularities using LED sensors. These sensors fetched data from the database to determine when to activate or deactivate alerts.
+- Used to simulate water consumption via a potentiometer, enabling users to adjust analog values reflected within the application.
 
 **Libraries Used in Arduino (NodeMCU):**
 - ESP8266WiFi.h: WiFi connectivity library for NodeMCU
