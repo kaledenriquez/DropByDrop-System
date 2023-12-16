@@ -5,18 +5,31 @@ This project is a collaborative effort where I was responsible for all the softw
 
 **Android Application**
 - Utilized Unity Software for creating an application that interfaces with the API to fetch and record user-generated data.
+  - **Libraries Used in Unity:**
+    - LitJson: Handling JSON data in C#
+    - TMPro: Utilization of advanced typography in Unity
+    - UnityEngine.Networking: Sending and downloading data to/from the API
 
 **Flask-based RestAPI**
 - Implemented to enable communication between the system's components: database, app, and NodeMCUs.
+  - **Libraries Used in Python:**
+    - flask: Framework for defining routes
+    - hashlib: Library for password encryption
+    - MySQL Connector: Connection between MySQL and Python
 
-### MySQL Database
-- Employed for storing and managing data related to water consumption and system alerts.
+**MySQL Database**
+- Employed for storing and managing data related to user accounts, water consumption, sensor values and system alerts.
 
-### Main NodeMCU 
+**Main NodeMCU**
 - Used to simulate water consumption via a potentiometer, enabling users to adjust analog values reflected within the application.
 
-### Water Consumption NodeMCU
+**Water Consumption NodeMCU**
 - Implemented for simulating the alert system and irregularities using LED sensors. These sensors fetched data from the database to determine when to activate or deactivate alerts.
+
+**Libraries Used in Arduino (NodeMCU):**
+- ESP8266WiFi.h: WiFi connectivity library for NodeMCU
+- ESP8266HTTPClient.h: HTTP client library for NodeMCU
+- ArduinoJson.h: Library for handling JSON data in NodeMCU
 
 ## Use Cases
 
