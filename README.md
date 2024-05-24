@@ -1,5 +1,4 @@
 # DropByDrop-System
-This project is a collaborative effort where I was responsible for all the software development using Unity, Flask RestAPI, and Arduino code. The hardware components and diagrams were developed by other team members. The aim was to create an integrated application that facilitates interaction between physical (NodeMCU ESP8266) and digital (Android App) components. The application's primary function is to monitor water consumption, utilizing simulated values from a potentiometer on the NodeMCU and user-defined parameters within the app.
 
 ## System Components
 
